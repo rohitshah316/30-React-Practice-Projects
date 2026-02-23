@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+/* header */
+.title{
+    
+       background-color: rgb(27 11 35);
+    text-align: center;
+    color: #e1aed6;
+    padding: 20px;
+}
+
+
+/* hero */
+.hero{
+    height: 20vh;
+    background-color: black;
+    color:white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* skill card */
+
+.skills-card{
+   
+   
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  background-color: rgb(27 11 35);
+  height: 200px;
+
+
+}
+
+.card{
+     background-color: purple;
+  padding: 20px;
+  border-radius: 8px;
+  
+  margin: 10px auto;
+  
+}
+
+
+/* footer  */
+.footer{
+    background-color: rgb(27 11 35);
+    color: white;
+    
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
