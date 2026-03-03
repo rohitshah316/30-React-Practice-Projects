@@ -5,10 +5,10 @@ import { useEffect } from 'react'
 
 const Counter = () => {
 
-    const useLocalStorage=(key,intialValue)=>{
+    const useLocalStorage=(key,initialValue)=>{
         const [value,setValue]=useState(()=>{
             const saved=localStorage.getItem(key);
-            return saved!==null?JSON.parse(saved):intialValue;
+            return saved!==null?JSON.parse(saved):initialValue;
         })
 
         useEffect(()=>{
