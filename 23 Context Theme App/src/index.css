@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+main{
+  height: 100vh;
+  padding: 40px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 20px;
+ 
+
+}
+
+button{
+ padding: 10px 30px;
+ font-weight: bold;
+ font-size: 1rem;
+ cursor: pointer;
+}
+
+
+
+.dark{
+  background-color: #111;
+  color: white;
+}
+
+.light{
+  background-color: #fff;
+  color: black;
+}
+
+
+
