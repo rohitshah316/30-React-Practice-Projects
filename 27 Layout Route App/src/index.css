@@ -1,0 +1,19 @@
+nav{
+    padding: 10px;
+    background-color: black;
+
+}
+
+nav a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+nav a:hover{
+    color: rgb(208, 206, 206);
+}
+
+nav a.active{
+
+    border-bottom: 1px solid white;;
+}
